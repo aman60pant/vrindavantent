@@ -154,7 +154,7 @@
                         <h2 class="home-slider-title-main">Complete Tent Solution</h2>
                     </div>
 
-                    <!-- Slide 2 -->
+                    <!-- Slide 2
                     <div class="swiper-slide">
                         <h5 class="main-heading inverse">
                             Welcome <span>Vrindaban Tent Company</span>
@@ -165,7 +165,7 @@
                             </span>
                         </h5>
                         <h2 class="home-slider-title-main">Complete Tent Solution</h2>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="home-pagination"></div>
                 <div class="home-slider-next right-arrow-negative"> <span class="ti-arrow-right"></span> </div>

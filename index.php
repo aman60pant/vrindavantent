@@ -210,22 +210,22 @@
                     <div class="about-row section">
                         <div class="col-md-6 about-photo">
                             <<div class="about-photo row">
-                                <div class="col-xs-6 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay=".2s">
+                                <div class="col-xs-6 col-sm-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                                     <img class="img-responsive" src="img/2.jpg" alt="Vrindaban Tent Company" title="Vrindaban Tent Company">
                                 </div>
-                                <div class="col-xs-6 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay=".4s">
+                                <div class="col-xs-6 col-sm-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                                     <img class="img-responsive" src="img/6.jpg" alt="Vrindaban Tent Company" title="Vrindaban Tent Company">
                                 </div>
-                                <div class="col-xs-6 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay=".6s">
+                                <div class="col-xs-6 col-sm-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                                     <img class="img-responsive" src="img/8.jpg" alt="Vrindaban Tent Company" title="Vrindaban Tent Company">
                                 </div>
-                                <div class="col-xs-6 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay=".8s">
+                                <div class="col-xs-6 col-sm-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
                                     <img class="img-responsive" src="img/12.jpg" alt="Vrindaban Tent Company" title="Vrindaban Tent Company">
                                 </div>
-                                <div class="col-xs-6 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay="1s">
+                                <div class="col-xs-6 col-sm-4 col-md-6 wow fadeInUp" data-wow-delay="1s">
                                     <img class="img-responsive" src="img/15.jpg" alt="Vrindaban Tent Company" title="Vrindaban Tent Company">
                                 </div>
-                                <div class="col-xs-6 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay="1.2s">
+                                <div class="col-xs-6 col-sm-4 col-md-6 wow fadeInUp" data-wow-delay="1.2s">
                                     <img class="img-responsive" src="img/16.jpg" alt="Vrindaban Tent Company" title="Vrindaban Tent Company">
                                 </div>
                         </div>
@@ -491,13 +491,13 @@
                         <h3>Enquiry Form</h3>
                         <div class="contact-form">
                             <form action="send_mail.php" method="post" enctype="multipart/form-data" onsubmit="return checkform(this);">
-                                <div class="form-group"> <input type="text" class="form-control" name="name" style="font-size: 18px;" placeholder="Name" required> </div>
-                                <div class="form-group"> <input type="email" class="form-control" name="email" style="font-size: 18px;" placeholder="Email" required> </div>
-                                <div class="form-group"> <input type="number" class="form-control" name="mobile" style="font-size: 18px;" placeholder="Mobile Number" required> </div>
-                                <div class="form-group"> <textarea type="text" class="form-control" name="message" style="font-size: 18px;" style="font-size: 18px;" placeholder="Message"></textarea> </div>
+                                <div class="form-group"> <input type="text" class="form-control" name="name" style="font-size: 18px; color:white; font-weight:bold;" placeholder="Name" required> </div>
+                                <div class="form-group"> <input type="email" class="form-control" name="email" style="font-size: 18px; color:white; font-weight:bold;" placeholder="Email" required> </div>
+                                <div class="form-group"> <input type="number" class="form-control" name="mobile" style="font-size: 18px; color:white; font-weight:bold;" placeholder="Mobile Number" required> </div>
+                                <div class="form-group"> <textarea type="text" class="form-control" name="message" style="font-size: 18px; color:white; font-weight:bold;" style="font-size: 18px;" placeholder="Message"></textarea> </div>
                                 <div class="form-group">
-                                    <span style="color:#000;font-weight: 600;">Captcha Code :</span>
-                                    <span id="txtCaptchaDiv" style="background-color:#000;color:#FFF;padding:5px"></span>
+                                    <span style="color:white;font-weight: 600;">Captcha Code :</span>
+                                    <span id="txtCaptchaDiv" style="color:white;padding:5px"></span>
                                     <input type="hidden" id="txtCaptcha" /><br>
                                     <input type="text" name="txtInput" id="txtInput" class="form-control" style="border: 1px solid #d7d7d7;" placeholder="Code" size="15" autocomplete="off" required />
                                 </div>

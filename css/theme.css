@@ -6147,10 +6147,18 @@ a:focus {
 
 .navbar .navbar-toggle .icon-bar {
   background: #c19c62;
+  width: 40px;
+  /* Lines ki lambai badhao (default ~22px) */
+  height: 6px;
+  /* Lines ki motai badhao (default ~2px)  */
+  margin: 9px 0;
+  /* Lines ke beech gap */
+  border-radius: 2px;
 }
 
 .navbar-nav {
-  float: right;
+  
+  float: center;
   margin-top: 20px;
 }
 
@@ -6171,7 +6179,13 @@ a:focus {
 .navbar-nav li {
   float: none;
   display: inline-block;
+  margin: 0 0px;
 }
+.navbar-nav li a {
+  padding: 0px 0px; /* Adjust as per needs */
+}
+
+
 
 @media (max-width: 479px) {
   .navbar-nav li {
@@ -6428,168 +6442,9 @@ a:focus {
   }
 }
 
-/* Default: Large screens and desktop */
-.about-chef {
-  display: flex;
-  align-items: center;
-  background: #000 url("../img/vrindabanimage13.png") no-repeat right center;
-  background-size: 58% auto;
-  color: #fff;
-  min-height: 100vh;
-}
-.about-chef .col-md-6 {
-  width: 42%;
-  padding: 60px;
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-/* Medium screens (≤1200px) */
-@media (max-width: 1200px) {
-  .about-chef .col-md-6 {
-    background-size: 70% auto;
-    width: 55%;
-    padding: 40px;
-  }
-}
-
-/* Tablet / small desktop (≤991px) */
-@media (max-width: 991px) {
-  .about-chef {
-    flex-direction: column;
-    background-size: cover;
-    background-position: center center;
-    padding: 40px 0;
-  }
-  .about-chef .col-md-6 {
-    width: 90%;
-    padding: 24px;
-    margin: 16px auto;
-    background: rgba(0,0,0,0.92);
-  }
-}
-
-/* Mobile wide (≤768px) */
-@media (max-width: 768px) {
-  .about-chef {
-    background: #000 url("../img/vrindabanimage13.png") no-repeat center center;
-    background-size: cover;
-    background-position: center center;
-    padding: 16px 0;
-  }
-  .about-chef .col-md-6 {
-    width: 98%;
-    padding: 14px;
-    margin: 6px auto;
-    background: none; /* Optional: remove dark overlay if too heavy on mobile */
-  }
-}
-
-/* Mobile narrow (≤480px) */
-@media (max-width: 480px) {
-  .about-chef {
-    background: #000 url("../img/chef-overlay.jpg") no-repeat center center;
-    background-size: cover;     /* Keeps image large and clean */
-    background-position: center center;
-    padding: 10px 0;
-  }
-  .about-chef .col-md-6 {
-    width: 100%;
-    padding: 8px;
-    background: none;
-    margin: 0;
-  }
-}
-
-
-/* Desktop - show image at right, partial */
-.about-chef {
-  background: #000 url("../img/vrindabanimage13.png") no-repeat right center;
-  background-size: 58% auto;
-}
-
-/* Medium screens - show more of image */
-@media (max-width: 1200px) {
-  .about-chef {
-    background: #000 url("../img/vrindabanimage13.png") no-repeat right center;
-    background-size: 70% auto;
-  }
-}
-
-/* Tablet - image covers more, centered */
-@media (max-width: 991px) {
-  .about-chef {
-    background: #000 url("../img/vrindabanimage13.png") no-repeat center center;
-    background-size: cover;
-  }
-}
-
-/* Mobile - image covers area fully and centers */
-@media (max-width: 768px) {
-  .about-chef {
-    background: #000 url("../img/vrindabanimage13.png") no-repeat center center;
-    background-size: cover;
-  }
-}
-
-/* Smallest mobile - optionally, use another image */
-@media (max-width: 480px) {
-  .about-chef {
-    background: #000 url("../img/chef-overlay.jpg") no-repeat center center;
-    background-size: cover;
-  }
-}
-
-/* ---- ABOUT CHEF BACKGROUND - DEFAULT (LARGE DESKTOP) ---- */
-.about-chef {
-  background: #000 url("../img/vrindabanimage13.png") no-repeat right center;
-  background-size: 58% auto;
-  color: #fff;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-}
-
-/* ---- LARGE TABLETS / SMALL DESKTOP (<=1200px) ---- */
-@media (max-width: 1200px) {
-  .about-chef {
-    background: #000 url("../img/vrindabanimage13.png") no-repeat right center;
-    background-size: 70% auto;
-  }
-}
-
-/* ---- TABLET (<=991px) ---- */
-@media (max-width: 991px) {
-  .about-chef {
-    background: #000 url("../img/vrindabanimage13.png") no-repeat center center;
-    background-size: cover;
-    flex-direction: column;
-    padding: 40px 0;
-  }
-}
-
-/* ---- MOBILE (<=768px) ---- */
-@media (max-width: 768px) {
-  .about-chef {
-    background: #000 url("../img/vrindabanimage13.png") no-repeat center center;
-    background-size: cover;
-    background-position: center center;
-    padding: 16px 0;
-  }
-}
-
-/* ---- SMALLEST MOBILES (<=480px) ---- */
-@media (max-width: 480px) {
-  .about-chef {
-    background: #000 url("../img/chef-overlay.jpg") no-repeat center center;
-    background-size: cover;
-    background-position: center center;
-    padding: 10px 0;
-  }
-}
-/* Default - Desktop/Large Screens */
 .about-chef.section {
-  background: #000 url("../img/vrindabanimage13.png") no-repeat right center;
-  background-size: 58% auto;
+  background: #000 url("../img/vrindabanimage13.png") no-repeat center;
+  background-size: cover;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -6598,7 +6453,6 @@ a:focus {
   position: relative;
 }
 
-/* Content Box Styles */
 .about-chef.section .container {
   width: 100%;
 }
@@ -6614,15 +6468,15 @@ a:focus {
 .about-chef.section .col-md-6 {
   width: 42%;
   padding: 60px;
-  background: rgba(0,0,0,0.88);
+  background: rgba(0, 0, 0, 0.88);
   border-radius: 12px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
   margin: 0 auto;
   transition: width 0.3s, padding 0.3s;
 }
 
 /* Medium Desktops (1200px and down) */
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
   .about-chef.section {
     background-size: 70% auto;
   }
@@ -6632,8 +6486,8 @@ a:focus {
   }
 }
 
-/* Tablets (992px and down) */
-@media (max-width:991px) {
+/* Tablets (991px and down) */
+@media (max-width: 991px) {
   .about-chef.section {
     flex-direction: column;
     background-size: cover;
@@ -6648,13 +6502,13 @@ a:focus {
   .about-chef.section .col-md-6 {
     width: 92%;
     padding: 20px;
-    background: rgba(0,0,0,0.94);
+    background: rgba(0, 0, 0, 0.94);
     margin: 14px auto;
   }
 }
 
 /* Mobile (768px and down) */
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .about-chef.section {
     background: #000 url("../img/vrindabanimage13.png") no-repeat center center;
     background-size: cover;
@@ -6663,22 +6517,24 @@ a:focus {
   .about-chef.section .col-md-6 {
     width: 98%;
     padding: 10px;
-    background: rgba(0,0,0,0.96);
+    background: rgba(0, 0, 0, 0.96);
   }
 }
 
-/* Smallest Devices (480px and down) */
-@media (max-width:480px) {
+/* Small Devices (480px and down) */
+@media (max-width: 480px) {
   .about-chef.section {
+    background: #000 url("../img/chef-overlay.jpg") no-repeat center center;
     background-size: cover;
     padding: 8px 0;
   }
   .about-chef.section .col-md-6 {
     width: 100%;
     padding: 5px;
-    background: rgba(0,0,0,0.98);
+    background: rgba(0, 0, 0, 0.98);
   }
 }
+
 
 .about-counter {
   background: #000;
@@ -7357,19 +7213,47 @@ a:focus {
 .footer .social-icons {
   width: 51px;
 }
+/*Deacrease size of Navbar tabs (links) */
+.navbar-nav li a {
+  padding: 30px 8px !important; 
+  font-size: 13px !important;
+  line-height: 18px !important;
+  min-height: 28px;
+  margin: 0 2px !important; 
+}
+/* 
+#myNavbar .navbar-nav {
+  display: flex;
+  justify-content: flex-end; 
+  width: 100%;
+}
+
+#myNavbar .navbar-nav li {
+  display: inline-block;
+}
+
+#myNavbar .navbar-nav {
+  float: none !important;
+} */
+
+.collapse.navbar-collapse {
+  margin-left: auto; /* Yeh flex-box child ko right push karta hai */
+}
+
 
 .home {
-    background-size: cover;      /* Ensures the image covers the section */
-    background-position: center; /* Keeps it centered */
-    background-repeat: no-repeat;
-    min-height: 400px;           /* Adjust as needed for desktop */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px;
 }
 
 /* Mobile specific adjustment */
 @media only screen and (max-width: 768px) {
-    .home {
-        min-height: 200px;    /* Make this smaller or larger as needed */
-    }
+  .home {
+    min-height: 200px;
+    /* Make this smaller or larger as needed */
+  }
 }
 
 

@@ -106,7 +106,6 @@
         }
 
         /* contact logo end */
-        
     </style>
 </head>
 
@@ -120,19 +119,23 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
+            <!-- First Logo + Text -->
+            <div style="display: flex; align-items: center;">
+                <img src="img/Vrindavan Tent LOGO.png" alt="logo" style="height: 110px; width: auto; margin-right: 0px;">
+                <span style="font-size: 25px; font-weight: 600; color: orange;">Vrindavan Tent Company</span>
 
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">home</a></li>
-                    <li><a href="#about">about us</a></li>
-                    <li><a href="#services">services</a></li>
-                    <li><a href="#reservation">enquiry</a></li>
-                    <li><a href="#news">gallery</a></li>
-                    <li><a href="#reviews">reviews</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#about">about us</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#reservation">enquiry</a></li>
+                        <li><a href="#news">gallery</a></li>
+                        <li><a href="#reviews">reviews</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
     </nav>
     <section class="home">
         <div class="">
@@ -206,38 +209,53 @@
                 <div class="row">
                     <div class="about-row section">
                         <div class="col-md-6 about-photo">
-                            <img class="col-md-6 col-sm-4 col-xs-6 wow fadeInUp" alt="Vrindaban Tent Company" title="Vrindaban Tent Company" src="img/2.jpg" data-wow-delay=".2s">
-                            <img class="col-md-6 col-sm-4 col-xs-6 wow fadeInUp" alt="Vrindaban Tent Company" title="Vrindaban Tent Company" src="img/6.jpg" data-wow-delay=".4s">
-                            <img class="col-md-6 col-sm-4 col-xs-6 wow fadeInUp" alt="Vrindaban Tent Company" title="Vrindaban Tent Company" src="img/8.jpg" data-wow-delay=".6s">
-                            <img class="col-md-6 col-sm-4 col-xs-6 wow fadeInUp" alt="Vrindaban Tent Company" title="Vrindaban Tent Company" src="img/12.jpg" data-wow-delay=".8s">
-                            <img class="col-md-6 col-sm-4 col-xs-6 wow fadeInUp" alt="Vrindaban Tent Company" title="Vrindaban Tent Company" src="img/15.jpg" data-wow-delay="1s">
-                            <img class="col-md-6 col-sm-4 col-xs-6 wow fadeInUp" alt="Vrindaban Tent Company" title="Vrindaban Tent Company" src="img/16.jpg" data-wow-delay="1.2s">
+                            <<div class="about-photo row">
+                                <div class="col-xs-6 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay=".2s">
+                                    <img class="img-responsive" src="img/2.jpg" alt="Vrindaban Tent Company" title="Vrindaban Tent Company">
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay=".4s">
+                                    <img class="img-responsive" src="img/6.jpg" alt="Vrindaban Tent Company" title="Vrindaban Tent Company">
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay=".6s">
+                                    <img class="img-responsive" src="img/8.jpg" alt="Vrindaban Tent Company" title="Vrindaban Tent Company">
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay=".8s">
+                                    <img class="img-responsive" src="img/12.jpg" alt="Vrindaban Tent Company" title="Vrindaban Tent Company">
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay="1s">
+                                    <img class="img-responsive" src="img/15.jpg" alt="Vrindaban Tent Company" title="Vrindaban Tent Company">
+                                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay="1.2s">
+                                    <img class="img-responsive" src="img/16.jpg" alt="Vrindaban Tent Company" title="Vrindaban Tent Company">
+                                </div>
                         </div>
-                        <div class="col-md-6 text-center">
-                            <h2 class="main-heading ">Excellent <span>Tent Decoration</span> </h2><br>
-                            <p style="text-align:justify;color: #000;font-size: 19px;font-family: vardhana;"> Your Event
-                                is one of the most exciting and wonderful moments of your life, and we are here to help
-                                you through every step of the process of bringing your dream Event to life. We have
-                                everything to create a comfortable, elegant and functional for you and your guests, and
-                                the solutions to make your Event flow smoothly so you can enjoy your special day.</p>
-                            <p style="text-align:justify;color: #000;font-size: 19px;font-family: vardhana;"> <br>We are
-                                committed to offering our customers the best decoration with creativity from our
-                                specialized and trained staff. Our tent decoration is no exception. You will be
-                                delighted with the range of decorations.</p>
-                            <p style="text-align:justify;color: #000;font-size: 19px;font-family: vardhana;"><br>We
-                                offer an impressive inventory of tents to choose from to suit any event, plus all the
-                                accessories to ensure an unforgettable event. Protection from the elements, seating
-                                solutions, dance floors, and more are available to create any setting for any venue.
-                                Choose from one of our pre-designed packages, or customize your own.</p>
-                        </div>
+
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h2 class="main-heading ">Excellent <span>Tent Decoration</span> </h2><br>
+                        <p style="text-align:justify;color: #000;font-size: 19px;font-family: vardhana;"> Your Event
+                            is one of the most exciting and wonderful moments of your life, and we are here to help
+                            you through every step of the process of bringing your dream Event to life. We have
+                            everything to create a comfortable, elegant and functional for you and your guests, and
+                            the solutions to make your Event flow smoothly so you can enjoy your special day.</p>
+                        <p style="text-align:justify;color: #000;font-size: 19px;font-family: vardhana;"> <br>We are
+                            committed to offering our customers the best decoration with creativity from our
+                            specialized and trained staff. Our tent decoration is no exception. You will be
+                            delighted with the range of decorations.</p>
+                        <p style="text-align:justify;color: #000;font-size: 19px;font-family: vardhana;"><br>We
+                            offer an impressive inventory of tents to choose from to suit any event, plus all the
+                            accessories to ensure an unforgettable event. Protection from the elements, seating
+                            solutions, dance floors, and more are available to create any setting for any venue.
+                            Choose from one of our pre-designed packages, or customize your own.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="about-chef section">
+        </div>
+        <div class="about-chef section" style="height: 350px;">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-6 text-center" style="height: 100; width:fit-content;">
                         <h2 class="main-heading inverse">Vrindaban Tent Company<br>
                             <span class="main-heading-decor">
                                 <span class=""> <img class="wow fadeInUp js-rotate" data-wow-delay=".2s" src="img/asterix.svg" alt="decor" width="20" height="20"> </span>

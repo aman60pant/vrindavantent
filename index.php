@@ -754,8 +754,8 @@
                         </span>
                     </h2>
                 </div>
-                <div class="col-md-12 col-md-push-0" style="">
-                    <div class="col-md-6 col-md-push-0" style="">
+                <div class="col-md-12 col-md-push-0">
+                    <div class="col-md-6 col-md-push-0">
                         <p style="color:#000;font-family: vardhana;font-size:19px;">
                             <b> <i class="fa fa-map-marker" style="font-size:24px;color:#c19c62;"></i>
                                 &nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;</b>
@@ -773,7 +773,7 @@
                             www.vrindabantentcompany.com<br><br><br>
                         </p>
                     </div>
-                    <div class="col-md-6 col-md-push-0" style=""> <img src="img/contact.png" class="img-fluid" width="100%" style="height:250px;"> </div>
+                    <div class="col-md-6 col-md-push-0"> <img src="img/contact.png" class="img-fluid" width="100%" style="height:250px;"> </div>
                 </div>
             </div>
         </div>

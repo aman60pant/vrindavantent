@@ -6,6 +6,8 @@
     <meta name="description" content="We would like to introduce ourselves The Vrindaban Tent Company is one of the high end, cutting edge leading as one of the professional Tent Company in Haridwar." />
     <meta name="keywords" content="Tent House in haridwar, hanger pandal in haridwar, water proof pandal in haridwar, Tent Company in haridwar" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -23,6 +25,36 @@
     <link rel="stylesheet" href="../blueimp.github.io/Gallery/css/blueimp-gallery.min.css" />
     <style>
         /* contact logo css start */
+
+        /* Mobile devices (max-width 600px tak) par text size increase */
+        @media only screen and (max-width: 600px) {
+
+            body,
+            a,
+            span,
+            div {
+                font-size: 1.0em !important;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-size: 2em !important;
+            }
+
+            p,
+            li {
+                font-size: 1em !important;
+            }
+        }
+
+
 
         .Whatsapp_btn {
             position: fixed;
@@ -106,37 +138,74 @@
         }
 
         /* contact logo end */
+        @media (min-width: 769px) {
+            .nav.navbar-nav {
+                display: flex !important;
+                flex-direction: row !important;
+                margin-top: 0;
+            }
+
+            .nav.navbar-nav>li {
+                float: none !important;
+            }
+
+            .nav.navbar-nav>li>a {
+                padding: 0px 0px;
+            }
+
+            /* Collapse container visible and inline*/
+            #myNavbar.collapse {
+                display: flex !important;
+                flex-grow: 1;
+                justify-content: flex-end;
+            }
+        }
     </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
     <nav class="navbar navbar-fixed-top shadow navbar-fixed-active" id="js-nav">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <!-- First Logo + Text -->
-            <div style="display: flex; align-items: center;">
-                <img src="img/Vrindavan Tent LOGO.png" alt="logo" style="height: 110px; width: auto; margin-right: 0px;">
-                <span style="font-size: 25px; font-weight: 600; color: orange;">Vrindavan Tent Company</span>
 
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">home</a></li>
-                        <li><a href="#about">about us</a></li>
-                        <li><a href="#services">services</a></li>
-                        <li><a href="#reservation">enquiry</a></li>
-                        <li><a href="#news">gallery</a></li>
-                        <li><a href="#reviews">reviews</a></li>
-                        <li><a href="#contact">contact</a></li>
-                    </ul>
+            <!-- Top Row: logo + text + toggle button -->
+            <div style="display: flex; align-items: center; justify-content: space-between;" class="col-lg-6">
+
+                <div style="display: flex; align-items: center;">
+                    <img src="img/Vrindavan Tent LOGO.png" alt="logo" style="height: 110px; width: auto; margin-right: 10px;">
+                    <span style="font-size: 25px; font-weight: 600; color: orange;">Vrindavan Tent Company</span>
+                </div>
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="border: none;">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
             </div>
+
+            <!-- Collapse menu: alag block container me -->
+            <div class="collapse navbar-collapse" id="myNavbar" style="padding-top: 10px;">
+                <ul class="nav navbar-nav" style="display: flex; flex-direction: column; font-size: 10px;">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#about">about us</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#reservation">enquiry</a></li>
+                    <li><a href="#news">gallery</a></li>
+                    <li><a href="#reviews">reviews</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+
+        </div>
     </nav>
+
+
+
+
+
     <section class="home">
         <div class="">
             <div class="home-slider text-center">
@@ -252,7 +321,7 @@
             </div>
         </div>
         </div>
-        <div class="about-chef section" style="height: 350px;">
+        <div class="about-chef section" style="min-height: 40vh;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center" style="height: 100; width:fit-content;">
@@ -329,7 +398,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="main-heading ">Services <br>
+                    <h2 class="main-heading "><span style="font-size: 45px;">Services </span><br>
                         <p class="content" style="line-height:29px;font-size: 19px;font-family: vardhana;">Enriched
                             experience of 25 years Vrindaban Tent Company has handled all kinds of events, be it
                             wedding, corporate, Political, religious or birthday; Vrindaban Tent Company have offered

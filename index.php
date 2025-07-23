@@ -185,7 +185,6 @@
                     </button>
                 </div>
             </div>
-
             <!-- Collapse menu: alag block container me -->
             <div class="collapse navbar-collapse" id="myNavbar" style="padding-top: 10px;">
                 <ul class="nav navbar-nav" style="display: flex; flex-direction: column; font-size: 10px;">
